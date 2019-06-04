@@ -1,9 +1,15 @@
 body {
-  background-color: rgb(235, 235, 235);
+  /*background: "images/the-tree-in-the-forest.jpg");*/
+  background: url("https://cdn-images-1.medium.com/max/2400/1*Yd2JS7Jo7W6DHf6VBmGnIg.jpeg");
+  background-size: cover;
+  /*background-color: rgb(235, 235, 235);*/
    font-family: 'Poppins', sans-serif;
    color: #6b0909;
-   font-size: 20px;
+   font-size: 14px;
    line-height: 30px;
+
+
+
 }
 
 h1, h2, a{
@@ -48,10 +54,12 @@ ul li {
   margin: 20px auto;
   border-radius: 5px;
   box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+  opacity: 0.95;
 }
 
-.circle-pic {
+#circle-pic {
   border-radius: 50%;
+  opacity: 1;
 }
 
 .btn-blue {
@@ -61,6 +69,8 @@ ul li {
   padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.2s ease;
+  margin: 0 20px;
+  opacity: 1.2;
   /*margin: 30px auto;*/
 }
 
@@ -69,20 +79,6 @@ ul li {
   color: white;
 }
 
-
-@media (max-width: 2000px) {
-   For a screen < 960px, this CSS will be read
-  .card {
-    width: 1600px;
-  }
-}
-
-@media (max-width: 1400px) {
-  /* For a screen < 960px, this CSS will be read */
-  .card {
-    width: 1000px;
-  }
-}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
